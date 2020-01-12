@@ -1,0 +1,14 @@
+.paragraphs{
+    height: 40px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inputs{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 3px;
+}
