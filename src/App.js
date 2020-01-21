@@ -1,24 +1,23 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-import Inputs from './Components/Inputs';
-
+import React, { Component } from "react";
+import { render } from "react-dom";
+import Inputs from "./Components/Inputs";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: "React"
     };
   }
 
   render() {
     return (
       <div>
-        <Inputs/>
+        <Inputs />
       </div>
     );
   }
 }
 
-export default App
-render(<App />, document.getElementById('root'));
+export default App;
+render(<App />, document.getElementById("root"));
